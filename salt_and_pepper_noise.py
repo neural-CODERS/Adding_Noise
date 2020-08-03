@@ -2,7 +2,7 @@ import cv2
 from skimage.util import random_noise
 import numpy as np 
 
-image = cv2.imread("F:\\Downloads\\histogram2.png",cv2.IMREAD_COLOR)
+image = cv2.imread("Demo_Image.png",cv2.IMREAD_COLOR)
 row,col,ch = image.shape
 s_vs_p = 0.5
 amount = 0.1
